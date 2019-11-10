@@ -5,6 +5,8 @@ import java.util.Collection;
 
 import javax.persistence.*;
 
+import lombok.Data;
+@Data
 @Entity(name = "tbl_user")
 public class User {
 

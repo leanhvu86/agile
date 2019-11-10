@@ -18,6 +18,8 @@ import javax.persistence.PreUpdate;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import lombok.Data;
+@Data
 @Entity(name = "tbl_role")
 public class Role {
 
